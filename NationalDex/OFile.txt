@@ -1,0 +1,548 @@
+***************************************************************
+Donphan #232
+
+Species: Armor Pokemon
+Type(s): Ground
+
+Donphan's favorite attack is curling its body into a ball, then charging at
+its foe while rolling at high speed. Once it starts rolling, this Pokemon
+can't stop very easily.
+
+***************************************************************
+Abilities: Sturdy - Sand Veil (Hidden Ability)
+
+Sturdy: The Pokemon will remain with 1 HP if it was going to be
+knocked out by a move when at full Hit Points, and it is
+immune to One Hit KO moves.
+
+Hidden Ability
+
+Sand Veil: Raises the Pokemon’s evasion during a sandstorm by one
+level.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *1
+FLYING    : *1
+POISON    : *0.5
+GROUND    : *1
+ROCK      : *0.5
+BUG       : *1
+GHOST     : *1
+STEEL     : *1
+FIRE      : *1
+WATER     : *2
+GRASS     : *2
+ELETRIC   : *0
+PSYCHIC   : *1
+ICE       : *2
+DRAGON    : *1
+DARK      : *1
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Phanpy evolves by leveling up to level 25 into Donphan.
+***************************************************************
+
+***************************************************************
+Hydreigon #635
+
+Species: Brutal Pokemon
+Type(s): Dark and Dragon
+
+The heads on their arms do not have brains. They use all three heads to
+consume and destroy everything.
+
+***************************************************************
+Ability: Levitate
+
+Levitate: Damage dealing Ground-type moves have no effect on this
+Pokemon. Cannot be trapped by Arena Trap ability. Takes no
+damage from Spikes.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *2
+FLYING    : *1
+POISON    : *1
+GROUND    : *1
+ROCK      : *1
+BUG       : *2
+GHOST     : *0.5
+STEEL     : *1
+FIRE      : *0.5
+WATER     : *0.5
+GRASS     : *0.5
+ELETRIC   : *0.5
+PSYCHIC   : *0
+ICE       : *2
+DRAGON    : *2
+DARK      : *0.5
+FAIRY     : *4
+
+Evolutionary Chain:
+
+Deino evolves by leveling up to level 50 into Zweilous then by
+leveling up to level 64 into Hydreigon.
+***************************************************************
+
+***************************************************************
+Larvitar #246
+
+Species: Rock Skin Pokemon
+Type(s): Rock and Ground
+
+Larvitar is born deep under the ground. To come up to the surface, this
+Pokemon must eat its way through the soil above. Until it does so, Larvitar
+cannot see its parents.
+
+***************************************************************
+Abilities: Guts - Sand Veil (Hidden Ability)
+
+Guts: Attack is increased by 50% when induced with a status (BURN,
+PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering
+Attack is not applied.
+
+Hidden Ability
+
+Sand Veil: Raises the Pokemon’s evasion during a sandstorm by one
+level.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *0.5
+FIGHTING  : *2
+FLYING    : *0.5
+POISON    : *0.25
+GROUND    : *2
+ROCK      : *0.5
+BUG       : *1
+GHOST     : *1
+STEEL     : *2
+FIRE      : *0.5
+WATER     : *4
+GRASS     : *4
+ELETRIC   : *0
+PSYCHIC   : *1
+ICE       : *2
+DRAGON    : *1
+DARK      : *1
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Larvitar evolves by leveling up to level 30 into Pupitar then by
+leveling up to level 55 into Tyranitar.
+***************************************************************
+
+***************************************************************
+Togekiss #468
+
+Species: Jubilee Pokemon
+Type(s): Fairy and Flying
+
+It shares many blessings with people who respect one another's rights and
+avoid needless strife.
+
+***************************************************************
+Abilities: Hustle - Serene Grace - Super Luck (Hidden Ability)
+
+Hustle: Damage from physical attacks is increased by 50%, but
+average accuracy is only 80%.
+
+Serene Grace: The chances of a move having a secondary effect is doubled.
+
+Hidden Ability
+
+Super Luck: Raises the critical-hit ratio of moves by one level.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *0.25
+FLYING    : *1
+POISON    : *2
+GROUND    : *0
+ROCK      : *2
+BUG       : *0.25
+GHOST     : *1
+STEEL     : *2
+FIRE      : *1
+WATER     : *1
+GRASS     : *0.5
+ELETRIC   : *2
+PSYCHIC   : *1
+ICE       : *2
+DRAGON    : *0
+DARK      : *0.5
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Togepi evolves by Leveling up with Happiness value at 220 into Togetic
+then by Using a Shiny Stone into Togekiss.
+***************************************************************
+
+***************************************************************
+Frillish #592
+
+Species: Floating Pokemon
+Type(s): Water and Ghost
+
+If its veil-like arms stun and wrap a foe, that foe will be dragged miles
+below the surface, never to return.
+
+***************************************************************
+Abilities: Water Absorb - Cursed Body - Damp (Hidden Ability)
+
+Water Absorb: The Pokemon heals up to 1/4 of its maximum Hit Points when
+hit with Water-type moves.
+
+Cursed Body: When a move hits the Pokemon, the move has a 30% chance of
+getting disabled.
+
+Hidden Ability
+
+Damp: Explosion, Selfdestruct & Mind Blown will not work while the
+Pokemon is on the field.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *0
+FIGHTING  : *0
+FLYING    : *1
+POISON    : *0.5
+GROUND    : *1
+ROCK      : *1
+BUG       : *0.5
+GHOST     : *2
+STEEL     : *0.5
+FIRE      : *0.5
+WATER     : *0.5
+GRASS     : *2
+ELETRIC   : *2
+PSYCHIC   : *1
+ICE       : *0.5
+DRAGON    : *1
+DARK      : *2
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Frillish evolves by leveling up to level 40 into Jellicent.
+***************************************************************
+
+***************************************************************
+Wobbuffet #202
+
+Species: Patient Pokemon
+Type(s): Psychic
+
+Wobbuffet does nothing but endure attacks—it won't attack on its own.
+However, it won't endure an attack on its tail. When that happens, the
+Pokemon will try to take the foe with it using Destiny Bond.
+
+***************************************************************
+Abilities: Shadow Tag - Telepathy (Hidden Ability)
+
+Shadow Tag: The opponent cannot run nor switch while this Pokemon is in
+play. The opponent may still switch by using Baton Pass,
+U-turn or Volt Switch, if it is holding a Shed Shell or is a
+Ghost-type.
+
+Hidden Ability
+
+Telepathy: Prevents damage from team-mates during Double and Triple
+battles.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *0.5
+FLYING    : *1
+POISON    : *1
+GROUND    : *1
+ROCK      : *1
+BUG       : *2
+GHOST     : *2
+STEEL     : *1
+FIRE      : *1
+WATER     : *1
+GRASS     : *1
+ELETRIC   : *1
+PSYCHIC   : *0.5
+ICE       : *1
+DRAGON    : *1
+DARK      : *2
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Wynaut evolves by leveling up to level 15 into Wobbuffet.
+***************************************************************
+
+***************************************************************
+Litwick #607
+
+Species: Candle Pokemon
+Type(s): Ghost and Fire
+
+Litwick shines a light that absorbs the life energy of people and Pokémon,
+which becomes the fuel that it burns.
+
+***************************************************************
+Abilities: Flash Fire - Flame Body - Infiltrator (Hidden Ability)
+
+Flash Fire: Activates when user is hit by a damaging Fire-type move
+(including Fire-type Hidden Power). Once activated, user’s
+Fire-type moves deal 1.5 times damage. While this ability is
+in effect, this Pokemon is immune to damage from Fire-type
+attacks and Fire-type Hidden Power (accuracy and effect from
+these moves are ignored). For Fire-type Pokemon with this
+ability, Will-O-Wisp activates this ability without having
+an effect. If a non-Fire-type Pokemon has this ability,
+Will-O-Wisp will activate the ability and will have an
+effect.
+
+Flame Body: The opponent has a 30% chance of being induced with Burn
+when using an attack, that requires physical contact,
+against this Pokémon.
+
+Hidden Ability
+
+Infiltrator: The protections and stat boosts caused by the moves
+Substitute, Reflect, Light Screen and Safeguard by the
+opponent are ignored.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *0
+FIGHTING  : *0
+FLYING    : *1
+POISON    : *0.5
+GROUND    : *2
+ROCK      : *2
+BUG       : *0.25
+GHOST     : *2
+STEEL     : *0.5
+FIRE      : *0.5
+WATER     : *2
+GRASS     : *0.5
+ELETRIC   : *1
+PSYCHIC   : *1
+ICE       : *0.5
+DRAGON    : *1
+DARK      : *2
+FAIRY     : *0.5
+
+Evolutionary Chain:
+
+Litwick evolves by leveling up to level 41 into Lampent then by Using
+a Dusk Stone into Chandelure.
+***************************************************************
+
+***************************************************************
+Lileep #345
+
+Species: Sea Lily Pokemon
+Type(s): Rock and Grass
+
+Lileep is an ancient Pokemon that was regenerated from a fossil. It remains
+permanently anchored to a rock. From its immobile perch, this Pokemon
+intently scans for prey with its two eyes.
+
+***************************************************************
+Abilities: Suction Cups - Storm Drain (Hidden Ability)
+
+Suction Cups: Negates moves that force switching out.
+
+Hidden Ability
+
+Storm Drain: Water-type moves are drawn to this Pokemon. Water-type moves
+will do no damage and the Pokemon's SP ATK is raised one
+stage.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *0.5
+FIGHTING  : *2
+FLYING    : *1
+POISON    : *1
+GROUND    : *1
+ROCK      : *1
+BUG       : *2
+GHOST     : *1
+STEEL     : *2
+FIRE      : *1
+WATER     : *1
+GRASS     : *1
+ELETRIC   : *0.5
+PSYCHIC   : *1
+ICE       : *2
+DRAGON    : *1
+DARK      : *1
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Lileep evolves by leveling up to level 40 into Cradily.
+***************************************************************
+
+***************************************************************
+Masquerain #284
+
+Species: Eyeball Pokemon
+Type(s): Bug and Flying
+
+Masquerain’s antennas have eyelike patterns that usually give it an angry
+look. If the “eyes” are droopy and appear sad, it is said to be a sign that
+a heavy rainfall is on its way.
+
+***************************************************************
+Abilities: Intimidate - Unnereve (Hidden Ability)
+
+Intimidate: Upon entering battle, the opponent’s Attack lowers one
+stage. In a Double Battle, both opponents’ Attack are
+lowered. Pokemon with the Clear Body, Hyper Cutter, or White
+Smoke ability are unaffected. In a link battle, if both
+sides switch on the same turn, and first player sends out a
+Pokemon with Intimidate, the opponent’s Attack will be
+lowered before the opponent’s Pokemon switches. Opponents in
+S.O.S. Battles are more likely to call for help.
+
+Hidden Ability
+
+Unnereve: The opponent Pokemon will never use their held Berry while
+the Pokemon is in battle. Opponents in S.O.S. Battles are
+more likely to call for help.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *0.25
+FLYING    : *2
+POISON    : *1
+GROUND    : *0
+ROCK      : *4
+BUG       : *0.5
+GHOST     : *1
+STEEL     : *1
+FIRE      : *2
+WATER     : *1
+GRASS     : *0.25
+ELETRIC   : *2
+PSYCHIC   : *1
+ICE       : *2
+DRAGON    : *1
+DARK      : *1
+FAIRY     : *1
+
+Evolutionary Chain:
+
+Surskit evolves by leveling up to level 22 into Masquerain.
+***************************************************************
+
+***************************************************************
+Stufful #759
+
+Species: Flailing Pokemon
+Type(s): Normal and Fighting
+
+Despite its adorable appearance, when it gets angry and flails about, its
+arms and legs could knock a pro wrestler sprawling.
+
+***************************************************************
+Abilities: Fluffy - Klutz - Cute Charm (Hidden Ability)
+
+Fluffy: Halves the damage taken from moves that make direct contact,
+but doubles that of Fire-type moves.
+
+Klutz: The Pokemon cannot receive any effect of hold items except
+those that affect experience such as Exp.Share or Macho
+Brace.
+
+Hidden Ability
+
+Cute Charm: The opponent has a 30% chance of being induced with Attract
+when using an attack, that requires physical contact,
+against this Pokemon.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *2
+FLYING    : *2
+POISON    : *1
+GROUND    : *1
+ROCK      : *0.5
+BUG       : *0.5
+GHOST     : *0
+STEEL     : *1
+FIRE      : *1
+WATER     : *1
+GRASS     : *1
+ELETRIC   : *1
+PSYCHIC   : *2
+ICE       : *1
+DRAGON    : *1
+DARK      : *0.5
+FAIRY     : *2
+
+Evolutionary Chain:
+
+Stufful evolves by leveling up to level 27 into Bewear.
+***************************************************************
+
+***************************************************************
+Machamp # 68
+
+Species: Superpower Pokemon
+Type(s): Fighting
+
+With four arms, it can attack and defend simultaneously. It's said to have
+mastered every martial art in the world.
+
+***************************************************************
+Abilities: Guts - No Guard - Steadfast (Hidden Ability)
+
+Guts: Attack is increased by 50% when induced with a status (BURN,
+PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering
+Attack is not applied.
+
+No Guard: The accuracy of all moves known by this Pokemon and all
+Pokemon targeting this Pokemon raises to 100%.
+
+Hidden Ability
+
+Steadfast: Speed raises by one level every time the Pokemon flinches.
+***************************************************************
+
+Damage Taken:
+NORMAL    : *1
+FIGHTING  : *1
+FLYING    : *2
+POISON    : *1
+GROUND    : *1
+ROCK      : *0.5
+BUG       : *0.5
+GHOST     : *1
+STEEL     : *1
+FIRE      : *1
+WATER     : *1
+GRASS     : *1
+ELETRIC   : *1
+PSYCHIC   : *2
+ICE       : *1
+DRAGON    : *1
+DARK      : *0.5
+FAIRY     : *2
+
+Evolutionary Chain:
+
+Machop evolves by leveling up to level 28 into Machoke then by Trade
+into Machamp.
+***************************************************************
+
