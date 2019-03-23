@@ -21,7 +21,7 @@ using namespace globalPDexConsts; /** Menu    **/
  * OUTPUT
  * 	  	The following information will be output for this program:
 			oFile    : The output file variable
-			pokemonAr: The pokemon array
+			pokedex  : The pokemon array
  ***********************************************************************/
 int main()
 {
