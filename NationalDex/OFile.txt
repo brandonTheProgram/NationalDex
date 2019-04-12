@@ -1,548 +1,232 @@
 ***************************************************************
-Donphan #232
+Gengar # 94
 
-Species: Armor Pokemon
-Type(s): Ground
+Species: Shadow Pokemon
+Type(s): Ghost and Poison
 
-Donphan's favorite attack is curling its body into a ball, then charging at
-its foe while rolling at high speed. Once it starts rolling, this Pokemon
-can't stop very easily.
-
-***************************************************************
-Abilities: Sturdy - Sand Veil (Hidden Ability)
-
-Sturdy: The Pokemon will remain with 1 HP if it was going to be
-knocked out by a move when at full Hit Points, and it is
-immune to One Hit KO moves.
-
-Hidden Ability
-
-Sand Veil: Raises the Pokemon’s evasion during a sandstorm by one
-level.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *1
-FLYING    : *1
-POISON    : *0.5
-GROUND    : *1
-ROCK      : *0.5
-BUG       : *1
-GHOST     : *1
-STEEL     : *1
-FIRE      : *1
-WATER     : *2
-GRASS     : *2
-ELETRIC   : *0
-PSYCHIC   : *1
-ICE       : *2
-DRAGON    : *1
-DARK      : *1
-FAIRY     : *1
-
-Evolutionary Chain:
-
-Phanpy evolves by leveling up to level 25 into Donphan.
-***************************************************************
+To steal the life of its target, it slips into the prey's shadow and
+silently waits for an opportunity.
 
 ***************************************************************
-Hydreigon #635
-
-Species: Brutal Pokemon
-Type(s): Dark and Dragon
-
-The heads on their arms do not have brains. They use all three heads to
-consume and destroy everything.
-
-***************************************************************
-Ability: Levitate
-
-Levitate: Damage dealing Ground-type moves have no effect on this
-Pokemon. Cannot be trapped by Arena Trap ability. Takes no
-damage from Spikes.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *2
-FLYING    : *1
-POISON    : *1
-GROUND    : *1
-ROCK      : *1
-BUG       : *2
-GHOST     : *0.5
-STEEL     : *1
-FIRE      : *0.5
-WATER     : *0.5
-GRASS     : *0.5
-ELETRIC   : *0.5
-PSYCHIC   : *0
-ICE       : *2
-DRAGON    : *2
-DARK      : *0.5
-FAIRY     : *4
-
-Evolutionary Chain:
-
-Deino evolves by leveling up to level 50 into Zweilous then by
-leveling up to level 64 into Hydreigon.
-***************************************************************
-
-***************************************************************
-Larvitar #246
-
-Species: Rock Skin Pokemon
-Type(s): Rock and Ground
-
-Larvitar is born deep under the ground. To come up to the surface, this
-Pokemon must eat its way through the soil above. Until it does so, Larvitar
-cannot see its parents.
-
-***************************************************************
-Abilities: Guts - Sand Veil (Hidden Ability)
-
-Guts: Attack is increased by 50% when induced with a status (BURN,
-PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering
-Attack is not applied.
-
-Hidden Ability
-
-Sand Veil: Raises the Pokemon’s evasion during a sandstorm by one
-level.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *0.5
-FIGHTING  : *2
-FLYING    : *0.5
-POISON    : *0.25
-GROUND    : *2
-ROCK      : *0.5
-BUG       : *1
-GHOST     : *1
-STEEL     : *2
-FIRE      : *0.5
-WATER     : *4
-GRASS     : *4
-ELETRIC   : *0
-PSYCHIC   : *1
-ICE       : *2
-DRAGON    : *1
-DARK      : *1
-FAIRY     : *1
-
-Evolutionary Chain:
-
-Larvitar evolves by leveling up to level 30 into Pupitar then by
-leveling up to level 55 into Tyranitar.
-***************************************************************
-
-***************************************************************
-Togekiss #468
-
-Species: Jubilee Pokemon
-Type(s): Fairy and Flying
-
-It shares many blessings with people who respect one another's rights and
-avoid needless strife.
-
-***************************************************************
-Abilities: Hustle - Serene Grace - Super Luck (Hidden Ability)
-
-Hustle: Damage from physical attacks is increased by 50%, but
-average accuracy is only 80%.
-
-Serene Grace: The chances of a move having a secondary effect is doubled.
-
-Hidden Ability
-
-Super Luck: Raises the critical-hit ratio of moves by one level.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *0.25
-FLYING    : *1
-POISON    : *2
-GROUND    : *0
-ROCK      : *2
-BUG       : *0.25
-GHOST     : *1
-STEEL     : *2
-FIRE      : *1
-WATER     : *1
-GRASS     : *0.5
-ELETRIC   : *2
-PSYCHIC   : *1
-ICE       : *2
-DRAGON    : *0
-DARK      : *0.5
-FAIRY     : *1
-
-Evolutionary Chain:
-
-Togepi evolves by Leveling up with Happiness value at 220 into Togetic
-then by Using a Shiny Stone into Togekiss.
-***************************************************************
-
-***************************************************************
-Frillish #592
-
-Species: Floating Pokemon
-Type(s): Water and Ghost
-
-If its veil-like arms stun and wrap a foe, that foe will be dragged miles
-below the surface, never to return.
-
-***************************************************************
-Abilities: Water Absorb - Cursed Body - Damp (Hidden Ability)
-
-Water Absorb: The Pokemon heals up to 1/4 of its maximum Hit Points when
-hit with Water-type moves.
+Ability: Cursed Body
 
 Cursed Body: When a move hits the Pokemon, the move has a 30% chance of
 getting disabled.
-
-Hidden Ability
-
-Damp: Explosion, Selfdestruct & Mind Blown will not work while the
-Pokemon is on the field.
 ***************************************************************
 
 Damage Taken:
 NORMAL    : *0
 FIGHTING  : *0
 FLYING    : *1
-POISON    : *0.5
-GROUND    : *1
+POISON    : *0.25
+GROUND    : *2
 ROCK      : *1
-BUG       : *0.5
-GHOST     : *2
-STEEL     : *0.5
-FIRE      : *0.5
-WATER     : *0.5
-GRASS     : *2
-ELETRIC   : *2
-PSYCHIC   : *1
-ICE       : *0.5
-DRAGON    : *1
-DARK      : *2
-FAIRY     : *1
-
-Evolutionary Chain:
-
-Frillish evolves by leveling up to level 40 into Jellicent.
-***************************************************************
-
-***************************************************************
-Wobbuffet #202
-
-Species: Patient Pokemon
-Type(s): Psychic
-
-Wobbuffet does nothing but endure attacks—it won't attack on its own.
-However, it won't endure an attack on its tail. When that happens, the
-Pokemon will try to take the foe with it using Destiny Bond.
-
-***************************************************************
-Abilities: Shadow Tag - Telepathy (Hidden Ability)
-
-Shadow Tag: The opponent cannot run nor switch while this Pokemon is in
-play. The opponent may still switch by using Baton Pass,
-U-turn or Volt Switch, if it is holding a Shed Shell or is a
-Ghost-type.
-
-Hidden Ability
-
-Telepathy: Prevents damage from team-mates during Double and Triple
-battles.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *0.5
-FLYING    : *1
-POISON    : *1
-GROUND    : *1
-ROCK      : *1
-BUG       : *2
+BUG       : *0.25
 GHOST     : *2
 STEEL     : *1
 FIRE      : *1
 WATER     : *1
-GRASS     : *1
-ELETRIC   : *1
-PSYCHIC   : *0.5
-ICE       : *1
-DRAGON    : *1
-DARK      : *2
-FAIRY     : *1
-
-Evolutionary Chain:
-
-Wynaut evolves by leveling up to level 15 into Wobbuffet.
-***************************************************************
-
-***************************************************************
-Litwick #607
-
-Species: Candle Pokemon
-Type(s): Ghost and Fire
-
-Litwick shines a light that absorbs the life energy of people and Pokémon,
-which becomes the fuel that it burns.
-
-***************************************************************
-Abilities: Flash Fire - Flame Body - Infiltrator (Hidden Ability)
-
-Flash Fire: Activates when user is hit by a damaging Fire-type move
-(including Fire-type Hidden Power). Once activated, user’s
-Fire-type moves deal 1.5 times damage. While this ability is
-in effect, this Pokemon is immune to damage from Fire-type
-attacks and Fire-type Hidden Power (accuracy and effect from
-these moves are ignored). For Fire-type Pokemon with this
-ability, Will-O-Wisp activates this ability without having
-an effect. If a non-Fire-type Pokemon has this ability,
-Will-O-Wisp will activate the ability and will have an
-effect.
-
-Flame Body: The opponent has a 30% chance of being induced with Burn
-when using an attack, that requires physical contact,
-against this Pokémon.
-
-Hidden Ability
-
-Infiltrator: The protections and stat boosts caused by the moves
-Substitute, Reflect, Light Screen and Safeguard by the
-opponent are ignored.
-***************************************************************
-
-Damage Taken:
-NORMAL    : *0
-FIGHTING  : *0
-FLYING    : *1
-POISON    : *0.5
-GROUND    : *2
-ROCK      : *2
-BUG       : *0.25
-GHOST     : *2
-STEEL     : *0.5
-FIRE      : *0.5
-WATER     : *2
 GRASS     : *0.5
 ELETRIC   : *1
-PSYCHIC   : *1
-ICE       : *0.5
+PSYCHIC   : *2
+ICE       : *1
 DRAGON    : *1
 DARK      : *2
 FAIRY     : *0.5
 
 Evolutionary Chain:
 
-Litwick evolves by leveling up to level 41 into Lampent then by Using
-a Dusk Stone into Chandelure.
-***************************************************************
+Gastly evolves by leveling up to level 25 into Haunter then by Trade
+into Gengar.
 
-***************************************************************
-Lileep #345
+Generation VII Level Up
 
-Species: Sea Lily Pokemon
-Type(s): Rock and Grass
+Level Attack Name                    Type       Cat.       Att. Acc. PP  Effect %  
+---------------------------------------------------------------------------------
+1     Shadow Punch                   Ghost      Physical   60   100  20  0         
+      The user throws a punch from the shadows. This attack never misses.
 
-Lileep is an ancient Pokemon that was regenerated from a fossil. It remains
-permanently anchored to a rock. From its immobile perch, this Pokemon
-intently scans for prey with its two eyes.
+1     Hypnosis                       Psychic    Condition  0    60   20  0         
+      The user employs hypnotic suggestion to make the target fall into a deep sleep.
 
-***************************************************************
-Abilities: Suction Cups - Storm Drain (Hidden Ability)
+1     Lick                           Ghost      Physical   30   100  30  30        
+      The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.
 
-Suction Cups: Negates moves that force switching out.
+1     Spite                          Ghost      Condition  0    100  10  0         
+      The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
 
-Hidden Ability
+5     Spite                          Ghost      Condition  0    100  10  0         
+      The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
 
-Storm Drain: Water-type moves are drawn to this Pokemon. Water-type moves
-will do no damage and the Pokemon's SP ATK is raised one
-stage.
-***************************************************************
+8     Mean Look                      Normal     Condition  0    100  5   0         
+      The user pins the target with a dark, arresting look. The target becomes unable to flee.
 
-Damage Taken:
-NORMAL    : *0.5
-FIGHTING  : *2
-FLYING    : *1
-POISON    : *1
-GROUND    : *1
-ROCK      : *1
-BUG       : *2
-GHOST     : *1
-STEEL     : *2
-FIRE      : *1
-WATER     : *1
-GRASS     : *1
-ELETRIC   : *0.5
-PSYCHIC   : *1
-ICE       : *2
-DRAGON    : *1
-DARK      : *1
-FAIRY     : *1
+12    Curse                          Ghost      Condition  0    100  10  0         
+      A move that works differently for the Ghost type than for all other types.
 
-Evolutionary Chain:
+15    Night Shade                    Ghost      Special    1    100  15  0         
+      The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.
 
-Lileep evolves by leveling up to level 40 into Cradily.
-***************************************************************
+19    Confuse Ray                    Ghost      Condition  0    100  10  0         
+      The target is exposed to a sinister ray that triggers confusion.
 
-***************************************************************
-Masquerain #284
+22    Sucker Punch                   Dark       Physical   70   100  5   0         
+      This move enables the user to attack first. This move fails if the target is not readying an attack.
 
-Species: Eyeball Pokemon
-Type(s): Bug and Flying
+28    Payback                        Dark       Physical   50   100  10  0         
+      The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
 
-Masquerain’s antennas have eyelike patterns that usually give it an angry
-look. If the “eyes” are droopy and appear sad, it is said to be a sign that
-a heavy rainfall is on its way.
+33    Shadow Ball                    Ghost      Special    80   100  15  20        
+      The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
 
-***************************************************************
-Abilities: Intimidate - Unnereve (Hidden Ability)
+39    Dream Eater                    Psychic    Special    100  100  15  0         
+      The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.
 
-Intimidate: Upon entering battle, the opponent’s Attack lowers one
-stage. In a Double Battle, both opponents’ Attack are
-lowered. Pokemon with the Clear Body, Hyper Cutter, or White
-Smoke ability are unaffected. In a link battle, if both
-sides switch on the same turn, and first player sends out a
-Pokemon with Intimidate, the opponent’s Attack will be
-lowered before the opponent’s Pokemon switches. Opponents in
-S.O.S. Battles are more likely to call for help.
+44    Dark Pulse                     Dark       Special    80   100  15  20        
+      The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
 
-Hidden Ability
+50    Destiny Bond                   Ghost      Condition  0    100  5   0         
+      After using this move, if the user faints, the Pokemon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.
 
-Unnereve: The opponent Pokemon will never use their held Berry while
-the Pokemon is in battle. Opponents in S.O.S. Battles are
-more likely to call for help.
-***************************************************************
+55    Hex                            Ghost      Special    65   100  10  0         
+      This relentless attack does massive damage to a target affected by status conditions.
 
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *0.25
-FLYING    : *2
-POISON    : *1
-GROUND    : *0
-ROCK      : *4
-BUG       : *0.5
-GHOST     : *1
-STEEL     : *1
-FIRE      : *2
-WATER     : *1
-GRASS     : *0.25
-ELETRIC   : *2
-PSYCHIC   : *1
-ICE       : *2
-DRAGON    : *1
-DARK      : *1
-FAIRY     : *1
+61    Nightmare                      Ghost      Condition  0    100  15  0         
+      A sleeping target sees a nightmare that inflicts some damage every turn.
 
-Evolutionary Chain:
 
-Surskit evolves by leveling up to level 22 into Masquerain.
-***************************************************************
+TM Attacks
+TM #  Attack Name                    Type       Cat.       Att. Acc. PP  Effect %  
+---------------------------------------------------------------------------------
+TM06  Toxic                          Poison     Condition  0    90   10  0          
+      A move that leaves the target badly poisoned. Its poison damage worsens every turn.
 
-***************************************************************
-Stufful #759
+TM09  Venoshock                      Poison     Special    65   100  10  0          
+      The user drenches the target in a special poisonous liquid. This move's power is doubled if the target is poisoned.
 
-Species: Flailing Pokemon
-Type(s): Normal and Fighting
+TM10  Hidden Power                   Normal     Special    60   100  15  0          
+      A unique attack that varies in type depending on the Pokemon using it.
 
-Despite its adorable appearance, when it gets angry and flails about, its
-arms and legs could knock a pro wrestler sprawling.
+TM11  Sunny Day                      Fire       Condition  0    100  5   0          
+      The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.
 
-***************************************************************
-Abilities: Fluffy - Klutz - Cute Charm (Hidden Ability)
+TM12  Taunt                          Dark       Condition  0    100  20  0          
+      The target is taunted into a rage that allows it to use only attack moves for three turns.
 
-Fluffy: Halves the damage taken from moves that make direct contact,
-but doubles that of Fire-type moves.
+TM15  Hyper Beam                     Normal     Special    150  90   5   0          
+      The target is attacked with a powerful beam. The user can't move on the next turn.
 
-Klutz: The Pokemon cannot receive any effect of hold items except
-those that affect experience such as Exp.Share or Macho
-Brace.
+TM17  Protect                        Normal     Condition  0    100  10  0          
+      Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
 
-Hidden Ability
+TM18  Rain Dance                     Water      Condition  0    100  5   0          
+      The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.
 
-Cute Charm: The opponent has a 30% chance of being induced with Attract
-when using an attack, that requires physical contact,
-against this Pokemon.
-***************************************************************
+TM21  Frustration                    Normal     Physical   1    100  20  0          
+      This full-power attack grows more powerful the less the user likes its Trainer.
 
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *2
-FLYING    : *2
-POISON    : *1
-GROUND    : *1
-ROCK      : *0.5
-BUG       : *0.5
-GHOST     : *0
-STEEL     : *1
-FIRE      : *1
-WATER     : *1
-GRASS     : *1
-ELETRIC   : *1
-PSYCHIC   : *2
-ICE       : *1
-DRAGON    : *1
-DARK      : *0.5
-FAIRY     : *2
+TM24  Thunderbolt                    Electric   Special    90   100  15  10         
+      A strong electric blast crashes down on the target. This may also leave the target with paralysis.
 
-Evolutionary Chain:
+TM25  Thunder                        Electric   Special    100  70   10  30         
+      A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.
 
-Stufful evolves by leveling up to level 27 into Bewear.
-***************************************************************
+TM27  Return                         Normal     Physical   1    100  20  0          
+      This full-power attack grows more powerful the more the user likes its Trainer.
 
-***************************************************************
-Machamp # 68
+TM29  Psychic                        Psychic    Special    90   100  10  10         
+      The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.
 
-Species: Superpower Pokemon
-Type(s): Fighting
+TM30  Shadow Ball                    Ghost      Special    80   100  15  20         
+      The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.
 
-With four arms, it can attack and defend simultaneously. It's said to have
-mastered every martial art in the world.
+TM31  Brick Break                    Fighting   Physical   75   100  15  0          
+      The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
 
-***************************************************************
-Abilities: Guts - No Guard - Steadfast (Hidden Ability)
+TM32  Double Team                    Normal     Condition  0    100  15  0          
+      By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
 
-Guts: Attack is increased by 50% when induced with a status (BURN,
-PARALYZE, SLEEP, POISON, FREEZE). Burn's effect of lowering
-Attack is not applied.
+TM36  Sludge Bomb                    Poison     Special    90   100  10  30         
+      Unsanitary sludge is hurled at the target. This may also poison the target.
 
-No Guard: The accuracy of all moves known by this Pokemon and all
-Pokemon targeting this Pokemon raises to 100%.
+TM41  Torment                        Dark       Condition  0    100  15  0          
+      The user torments and enrages the target, making it incapable of using the same move twice in a row.
 
-Hidden Ability
+TM42  Facade                         Normal     Physical   70   100  20  0          
+      This attack move doubles its power if the user is poisoned, burned, or paralyzed.
 
-Steadfast: Speed raises by one level every time the Pokemon flinches.
-***************************************************************
+TM44  Rest                           Psychic    Condition  0    100  10  0          
+      The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.
 
-Damage Taken:
-NORMAL    : *1
-FIGHTING  : *1
-FLYING    : *2
-POISON    : *1
-GROUND    : *1
-ROCK      : *0.5
-BUG       : *0.5
-GHOST     : *1
-STEEL     : *1
-FIRE      : *1
-WATER     : *1
-GRASS     : *1
-ELETRIC   : *1
-PSYCHIC   : *2
-ICE       : *1
-DRAGON    : *1
-DARK      : *0.5
-FAIRY     : *2
+TM45  Attract                        Normal     Condition  0    100  15  0          
+      If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
 
-Evolutionary Chain:
+TM46  Thief                          Dark       Physical   60   100  25  0          
+      The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item.
 
-Machop evolves by leveling up to level 28 into Machoke then by Trade
-into Machamp.
+TM48  Round                          Normal     Special    60   100  15  0          
+      The user attacks the target with a song. Others can join in the Round to increase the power of the attack.
+
+TM52  Focus Blast                    Fighting   Special    120  70   5   10         
+      The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.
+
+TM53  Energy Ball                    Grass      Special    90   100  10  10         
+      The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.
+
+TM56  Fling                          Dark       Physical   1    100  10  0          
+      The user flings its held item at the target to attack. This move's power and effects depend on the item.
+
+TM61  Will-O-Wisp                    Fire       Condition  0    85   15  0          
+      The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+
+TM63  Embargo                        Dark       Condition  0    100  15  0          
+      This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.
+
+TM64  Explosion                      Normal     Physical   250  100  5   0          
+      The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.
+
+TM65  Shadow Claw                    Ghost      Physical   70   100  15  0          
+      The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+
+TM66  Payback                        Dark       Physical   50   100  10  0          
+      The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.
+
+TM68  Giga Impact                    Normal     Physical   150  90   5   0          
+      The user charges at the target using every bit of its power. The user can't move on the next turn.
+
+TM77  Psych Up                       Normal     Condition  0    100  10  0          
+      The user hypnotizes itself into copying any stat change made by the target.
+
+TM83  Infestation                    Bug        Special    20   100  20  100        
+      The target is infested and attacked for four to five turns. The target can't flee during this time.
+
+TM84  Poison Jab                     Poison     Physical   80   100  20  30         
+      The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.
+
+TM85  Dream Eater                    Psychic    Special    100  100  15  0          
+      The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.
+
+TM87  Swagger                        Normal     Condition  0    85   15  0          
+      The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.
+
+TM88  Sleep Talk                     Normal     Condition  0    100  10  0          
+      While it is asleep, the user randomly uses one of the moves it knows.
+
+TM90  Substitute                     Normal     Condition  0    100  10  0          
+      The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+
+TM92  Trick Room                     Psychic    Condition  0    100  5   0          
+      The user creates a bizarre area in which slower Pokemon get to move first for five turns.
+
+TM97  Dark Pulse                     Dark       Special    80   100  15  20         
+      The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
+
+TM99  Dazzling Gleam                 Fairy      Special    80   100  10  0          
+      The user damages opposing Pokemon by emitting a powerful flash.
+
+TM100 Confide                        Normal     Condition  0    100  20  100        
+      The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.
+
+
 ***************************************************************
 

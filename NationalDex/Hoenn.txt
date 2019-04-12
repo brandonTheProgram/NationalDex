@@ -258,7 +258,7 @@ Except for trainer battles, can always run from battle. It still cannot switch d
 2
 None
 None
-3 0 1 1 7 265
+2 0 1 1 7 265
 Two different ways
 0 0 10
 None
@@ -277,7 +277,7 @@ None
 1
 None
 None
-3 1 1 0 10 265
+2 1 1 0 10 265
 Personality < 5 at Level 7
 266 0 10
 None
@@ -296,7 +296,7 @@ Attack & Special Attack is increased by 25% if the foe is of the same gender; At
 2
 None
 None
-3 0 1 0 0 265
+2 0 1 0 0 265
 Personality < 5 at Level 7
 266 1 10
 None
@@ -315,7 +315,7 @@ None
 1
 None
 None
-3 1 1 0 10 265
+2 1 1 0 10 265
 Personality > 4 at Level 7
 268 0 10
 None
@@ -334,7 +334,7 @@ Raises the Pokemon's accuracy by 30%.
 2
 None
 None
-3 0 1 0 0 265
+2 0 1 0 0 265
 Personality > 4 at Level 7
 268 1 10
 None
@@ -886,7 +886,7 @@ Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User
 Huge Power
 The Pokemon's Attack stat is doubled while it has this ability.
 2 0 1 1 0 298
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 183 0 18
 None
 184 0 0
@@ -1209,7 +1209,7 @@ Prevents the Pokemon from being afflicted by status conditions during strong sun
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 2 1 0 1 0 406
-Leveling up with Happiness value at 220 in the Daytime
+Level up with Happiness value at 220 During the Day
 315 0 0
 Using a Shiny Stone
 407 0 0
@@ -1857,7 +1857,7 @@ The Pokemon cannot be under the Attract condition, or be taunted, while having t
 1 0 1 1 0 349
 None
 0 0 1
-Leveling Up with Maximum Beauty or Trade with Prism Scale
+Level Up with Maximum Beauty or Trade with Prism Scale
 350 0 0
 
 350
@@ -1876,7 +1876,7 @@ Raises Sp. Atk stat by two stages whenever a stat is lowered.
 1 0 1 1 0 349
 None
 0 1 1
-Leveling Up with Maximum Beauty or Trade with Prism Scale
+Level Up(Maximum Beauty) or Trade with Prism Scale
 350 0 0
 
 351
@@ -2028,7 +2028,7 @@ None
 1 0 0 1 0 433
 None
 0 1 0
-Leveling up with Happiness value at 220 During the Night
+Level up with Happiness value at 220 During the Night
 358 0 0
 
 359

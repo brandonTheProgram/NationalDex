@@ -183,14 +183,6 @@ std::ifstream& operator >>(std::ifstream& isObject, Pokemon& cObject)
 
 	isObject.ignore(1000, '\n');
 
-	//PROCESSING - Initialize the Enums using the types
-	cObject.weaknessAr.InitializePriTypeEnum(cObject.basic.priType);
-
-	cObject.weaknessAr.InitializeSecTypeEnum(cObject.basic.secType);
-
-	//PROCESSING - Calculate the damage that the Pokemon would take
-	cObject.weaknessAr.CalcDamageTaken();
-
 	return isObject;
 }
 
@@ -231,9 +223,6 @@ std::ostream& operator <<(std::ostream& osObject, const Pokemon& cObject)
 
 	osObject << "********************************************"
 			    "*******************\n";
-
-	//OUTPUT - Display the pokemon's damage
-	osObject << cObject.weaknessAr;
 
 	return osObject;
 }

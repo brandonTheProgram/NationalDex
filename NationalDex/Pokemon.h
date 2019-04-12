@@ -3,7 +3,9 @@
 
 #include <sstream> 			 /** istringstream & ostringstream **/
 #include <fstream> 			 /** fstream 					   **/
-#include "PokemonWeakness.h" /** PokemonWeakness               **/
+#include <iomanip>           /** setw                          **/
+#include <string>
+using std::string;
 using std::endl;
 
 //Namespace for the global constants and function used in and out of the class
@@ -455,7 +457,6 @@ class Pokemon //Base Class
 	private:
 		basicInfo       basic;		//The basic information of a Pokemon
 		evolutionInfo   evol;		//The evolution information of a Pokemon
-		PokemonWeakness weaknessAr; //The weakness array of the Pokemon
 };
 
 #endif /* POKEMON_H_ */

@@ -58,17 +58,16 @@ class PokemonEvolutions //Base Class
 		PokemonEvolutions(); //Default Constructor
 
 		/****************************************************************
-		 * 	PokemonEvolutions(const vector<Pokemon>& pokedex,
-	     *        	  	      const Pokemon& 		 currnetPokemon);
+		 * PokemonEvolutions ();
 		 *   Constructor; this method initializes the Pokemon Evolutions object
 		 *   			  with values
-		 *   Parameters: pokedex       (vector<Pokemon>) - The stored Pokedex
-		 *   			 currnetPokemon(Pokemon)         - The current Pokemon
+		 *   Parameters: pokedex       (vector<Pokemon>) - the pokedex
+		 *   			 currentPokemon(currentPokemon)  - the current Pokemon
 		 *   Return: none
 		 ***************************************************************/
 		PokemonEvolutions(const vector<Pokemon>& pokedex,
-	              	  	  const Pokemon& 		 currnetPokemon); //Non-Deafult
-																  //Constructor
+				 	 	  const Pokemon& currentPokemon);//Non-Default
+														 //Constructor
 
 		/****************************************************************
 		 * ~PokemonEvolutions ();
@@ -83,16 +82,16 @@ class PokemonEvolutions //Base Class
 		 ******************/
 
 		/****************************************************************
-		 * 	 void SetInitialValues(const vector<Pokemon>& pokedex,
-		 *		                   const Pokemon&         currnetPokemon);
-		 *
-		 *   Mutator; this method initializes the Pokemon Evolutions
-		 *   Parameters: pokedex        (vector<Pokemon>) - the pokedex
-		 *   			 currnetPokemon (int)             - the current Pokemon
+		 *void SetInitialValues(const vector<Pokemon>& pokedex,
+		 *	 	 	 	        const Pokemon& currentPokemon);
+		 *   Mutator; this method set the values of the Pokemon Evolutions
+		 *   		  object
+		 *   Parameters: pokedex       (vector<Pokemon>) - the pokedex
+		 *   			 currentPokemon(currentPokemon)  - the current Pokemon
 		 *   Return: none
 		 ***************************************************************/
 		void SetInitialValues(const vector<Pokemon>& pokedex,
-				              const Pokemon&         currnetPokemon);
+				 	 	 	  const Pokemon& currentPokemon);
 
 		/*******************
 		 **** ACCESSORS ****

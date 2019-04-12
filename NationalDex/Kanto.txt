@@ -468,7 +468,7 @@ Electric-type moves are drawn to this Pokemon. Electric-type moves will do no da
 None
 None
 2 1 0 1 0 172
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 25 0 0
 Using a Thunder Stone
 26 0 0
@@ -487,7 +487,7 @@ Electric-type moves are drawn to this Pokemon. Electric-type moves will do no da
 None
 None
 2 0 0 1 0 172
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 25 1 0
 Using a Thunder Stone
 26 0 0
@@ -658,7 +658,7 @@ In Double & Triple battles, the damage that ally Pokemon receive from attacks is
 Magic Guard
 Prevents all damage except from direct-attack moves.
 2 1 0 1 0 173
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 35 0 0
 Using a Moon Stone
 36 0 0
@@ -677,7 +677,7 @@ Foe's stat modifications are ignored.
 Magic Guard
 Prevents all damage except from direct-attack moves.
 3 0 0 1 0 173
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 35 1 0
 Using a Moon Stone
 36 0 0
@@ -734,7 +734,7 @@ In Double & Triple battles, the damage that ally Pokemon receive from attacks is
 Competitive
 Raises Sp. Atk stat by two stages whenever a stat is lowered.
 2 1 0 1 0 174
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 39 0 0
 Using a Moon Stone
 40 0 0
@@ -753,7 +753,7 @@ Reveals the foe’s held item.
 Competitive
 Raises Sp. Atk stat by two stages whenever a stat is lowered.
 2 0 0 1 0 174
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 39 1 0
 Using a Moon Stone
 40 0 0
@@ -774,7 +774,7 @@ None
 2 0 1 0 22 41
 None
 42 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 169 0 0
 
 42
@@ -793,7 +793,7 @@ None
 2 1 0 1 0 41
 None
 42 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 169 0 0
 
 43
@@ -2141,9 +2141,9 @@ At the end of the turn, there is a 30% chance of either Ally being healed from a
 Serene Grace
 The chances of a move having a secondary effect is doubled.
 2 1 1 1 1 440
-Leveling up during the day while holding Oval Stone
+Level up during the day while holding Oval Stone
 113 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 242 0 0
 
 114
@@ -2520,7 +2520,7 @@ Warns when the foe knows 1-hit KO or super-effective moves.
 3
 Adaptability
 Increases the Same Type Attack Bonus from *1.5 to *2.
-8 0 1 1 1 133
+5 0 1 1 1 133
 None
 0 0 0
 Many methods
@@ -2539,7 +2539,7 @@ All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when 
 2
 None
 None
-8 0 0 1 0 133
+7 0 0 1 0 133
 None
 0 1 0
 Using a Water Stone
@@ -2559,7 +2559,7 @@ Speed is increased by 50% when induced with a status (Burn, Poison, Sleep, Froze
 2
 None
 None
-8 0 0 1 0 133
+7 0 0 1 0 133
 None
 0 1 0
 Using a Thunder Stone
@@ -2578,7 +2578,7 @@ Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, PO
 2
 None
 None
-8 0 0 1 0 133
+7 0 0 1 0 133
 None
 0 1 0
 Using a Fire Stone
@@ -2714,7 +2714,7 @@ Fire and Ice-Type moves deals 50% damage.
 1 0 1 1 0 446
 None
 0 1 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 143 0 0
 
 144

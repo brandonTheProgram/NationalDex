@@ -337,7 +337,7 @@ None
 2 0 1 1 1 41
 None
 42 1 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 169 0 0
 
 170
@@ -392,7 +392,7 @@ Electric-type moves are drawn to this Pokemon. Electric-type moves will do no da
 None
 None
 2 0 1 1 1 172
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 25 0 0
 Using a Thunder Stone
 26 0 0
@@ -411,7 +411,7 @@ In Double & Triple battles, the damage that ally Pokemon receive from attacks is
 Magic Guard
 Prevents all damage except from direct-attack moves.
 2 0 1 1 1 173
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 35 0 0
 Using a Moon Stone
 36 0 0
@@ -430,7 +430,7 @@ In Double & Triple battles, the damage that ally Pokemon receive from attacks is
 Competitive
 Raises Sp. Atk stat by two stages whenever a stat is lowered.
 2 0 1 1 1 174
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 39 0 0
 Using a Moon Stone
 40 0 0
@@ -449,7 +449,7 @@ Raises the critical-hit ratio of moves by one level.
 Serene Grace
 The chances of a move having a secondary effect is doubled.
 2 0 1 1 1 175
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 176 0 0
 Using a Shiny Stone
 468 0 0
@@ -468,7 +468,7 @@ Raises the critical-hit ratio of moves by one level.
 Serene Grace
 The chances of a move having a secondary effect is doubled.
 2 1 0 1 0 175
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 176 0 0
 Using a Shiny Stone
 468 0 0
@@ -601,7 +601,7 @@ Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User
 Huge Power
 The Pokemon's Attack stat is doubled while it has this ability.
 2 1 1 0 18 298
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 183 0 18
 None
 184 0 0
@@ -620,7 +620,7 @@ Attack is raised by one stage when the Pokemon is hit by a Grass-type move. User
 Huge Power
 The Pokemon's Attack stat is doubled while it has this ability.
 2 0 1 0 0 298
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 183 1 18
 None
 184 0 0
@@ -847,10 +847,10 @@ Reflects non-attacking moves used by the Pokemon back to the attacking Pokemon.
 2
 None
 None
-8 0 1 1 1 133
+7 0 1 1 1 133
 None
 0 1 0
-Leveling up with Happiness value at 220 in the Daytime
+Level up with Happiness value at 220 During the Day
 196 1 0
 
 197
@@ -866,10 +866,10 @@ This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 2
 None
 None
-8 0 1 1 1 133
+7 0 1 1 1 133
 None
 0 1 0
-Leveling up with Happiness value at 220 at Night
+Level up with Happiness value at 220 During the Night
 197 1 0
 
 198
@@ -1059,7 +1059,7 @@ Raises the Pokemon’s evasion during a sandstorm by one level.
 1 0 1 1 1 207
 None
 0 0 0
-Leveling up during the night while holding Razor Fang
+Level up during the night while holding Razor Fang
 472 0 0 
 
 208
@@ -1211,7 +1211,7 @@ Opponent cannot lower this Pokemon's accurary. The Pokemon ignores evasion boost
 1 0 1 1 1 215
 None
 0 0 0
-Leveling up during the night while holding Razor Claw
+Level up during the night while holding Razor Claw
 461 0 0
 
 216
@@ -1420,7 +1420,7 @@ The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type m
 1 0 1 1 0 458
 None
 0 1 0
-Leveling up with Remoraid in the Party
+Level up with Remoraid in the Party
 226 0 0
 
 227
@@ -1630,7 +1630,7 @@ Moves with a base power of 60 or less are boosted in power by 50%.
 None
 0 1 20
 Attack = Defence at Level 20
-237 1 0
+0 1 0
 
 238
 Smoochum
@@ -1722,9 +1722,9 @@ At the end of the turn, there is a 30% chance of either Ally being healed from a
 Serene Grace
 The chances of a move having a secondary effect is doubled
 2 0 1 1 0 440
-Leveling up during the day while holding Oval Stone
+Level up during the day while holding Oval Stone
 113 1 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 242 0 0
 
 243

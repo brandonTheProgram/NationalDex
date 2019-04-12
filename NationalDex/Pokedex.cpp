@@ -14,8 +14,12 @@
 *************************************************************************/
 Pokedex::Pokedex()
 {
-	pokedex.clear();
-	pokedex.reserve(globalPDexConsts::AR_SIZE);
+	pokedex    .clear();
+	attackDex  .clear();
+	pokedexCopy.clear();
+	pokedex    .reserve(globalPDexConsts::AR_SIZE);
+	pokedexCopy.reserve(globalPDexConsts::AR_SIZE);
+	attackDex  .reserve(globalPDexConsts::MAX_ATTKS);
 }
 
 /************************************************************************
@@ -33,6 +37,86 @@ Pokedex::Pokedex()
 Pokedex::~Pokedex()
 {
 	pokedex.clear();
+	attackDex.clear();
+	pokedexCopy.clear();
+
+	vector<Pkmn>().swap(pokedex);
+	vector<Attack>().swap(attackDex);
+	vector<Pokemon>().swap(pokedexCopy);
+}
+
+/************************************************************************
+* Method CreateAttackList: Class Pokedex
+*----------------------------------------------------------------------
+* 	 This method creates the attackdex
+* 	 ==> returns nothing
+*-----------------------------------------------------------------------
+* PRE-CONDITIONS
+* 	The following need to be passed in
+* 		INPUT_FILE (string) - the input file
+*
+* POST-CONDITIONS
+* 	==> returns nothing
+*************************************************************************/
+void Pokedex::CreateAttackList(const string& INPUT_FILE)
+{
+	std::ifstream fin(INPUT_FILE.c_str()); //PROC - Open the input file
+
+	int index;							   //PROC - the index in the array
+
+	Attack *attack = new Attack;	       //PROC - create a new attack
+
+	index = 0;
+
+	while(!fin.eof() && (index < globalPDexConsts::MAX_ATTKS))
+	{
+		getline(fin, attack->name);
+		getline(fin, attack->desc);
+		getline(fin, attack->type);
+		getline(fin, attack->category);
+		fin >> attack->pwr;
+		fin >> attack->acc;
+		fin >> attack->pp;
+		fin >> attack->effRate;
+		fin >> attack->TM;
+		fin >> attack->TMNum;
+
+		attackDex.push_back(*attack);
+
+		fin.ignore(1000, '\n');
+		fin.ignore(1000, '\n');
+
+		attack = new Attack;
+
+		index++;
+	}
+
+	delete attack;
+	attack = nullptr;
+
+	fin.close();
+}
+
+/************************************************************************
+* Method CreatePokedexCopy: Class Pokedex
+*----------------------------------------------------------------------
+* 	 This method creates a copy of the Pokedex with only a Pokemon and
+* 	 	not attacks or weaknesses
+* 	 ==> returns nothing
+*-----------------------------------------------------------------------
+* PRE-CONDITIONS
+* 	The following need to be passed in
+*
+* POST-CONDITIONS
+* 	==> returns nothing
+*************************************************************************/
+void Pokedex::CreatePokedexCopy()
+{
+	for(auto it: pokedex)
+	{
+		//PROCESSING - Add only the Pokemon to the list
+		pokedexCopy.push_back(it.currentPkmn);
+	}
 }
 
 /************************************************************************
@@ -43,39 +127,120 @@ Pokedex::~Pokedex()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		INPUT_FILE (string) - The name of the input file
-* 		REGION_MAX (int)    - The max number of Pokemon available in the region
+* 		INPUT_FILE  (string) - The name of the input file
+* 		REGION_MAX  (int)    - The max number of Pokemon available in the region
+* 		ATTACK_FILE (string) - The name of the attack file for the region
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX)
+void Pokedex::LoadRegion(const string& INPUT_FILE, const int& REGION_MAX,
+						 const string& ATTACK_FILE)
 {
-	static int pokdexIndex = 0;             //PROC      - the position in the
-											//			  vector
+	static int pokdexIndex = 0;                   //PROC - the position in
+											      //	   in vector
 
-	std::ifstream fin(INPUT_FILE.c_str());  //IN        - the input file
-											//            variable
+	std::ifstream fin(INPUT_FILE.c_str());        //IN   - the input file
+											      //       variable
 
-	Pokemon newPokemon;						//IN & PROC - The Pokemon that will
-											//            get added to the
-										    //            Pokedex
+	std::ifstream attackFin(ATTACK_FILE.c_str()); //IN   - the attack
+												  //       file variable
+
+	vector<string> attackNames;					  //PROC - the names of the
+												  //       attacks
+	vector<int> attackLvls;						  //PROC - the levels of the
+												  //       attacks
+
+	Pkmn *newPokemon = new Pkmn;				  //PROC - Create a new Pokemon
 
 	//While not at the end of the file and the index doesn't exceed the max
 	//number of Pokemon available in the region
 	while(!fin.eof() && pokdexIndex < REGION_MAX)
 	{
 		//INPUT - Store the information of the Pokemon
-		fin >> newPokemon;
+		fin >> newPokemon->currentPkmn;
+
+		//PROCESSING - Initialize the Enums using the types
+		newPokemon->pkmnWeakness.InitializePriTypeEnum
+									(newPokemon->currentPkmn.GetPriType());
+
+		newPokemon->pkmnWeakness.InitializeSecTypeEnum
+									(newPokemon->currentPkmn.GetSecType());
+
+		//PROCESSING - Calculate the damage that the Pokemon would take
+		newPokemon->pkmnWeakness.CalcDamageTaken();
+
+		//PROCESSING - Load in the Pokemon's moves
+		LoadPokemonMoves(attackFin, attackNames, attackLvls);
+
+		//PROCESSING - Initialize the Pokemon's moves
+		newPokemon->pkmnMoves.InitializeMoveSets
+								(attackDex, attackNames, attackLvls);
 
 		//PROCESSING - Store the Pokemon in the vector
-		pokedex.push_back(newPokemon);
+		pokedex.push_back(*newPokemon);
+
+		//PROCESSING - Clear the arrays for reuse and deallocate memory
+		attackNames.clear();
+		attackLvls.clear();
+
+		vector<string>().swap(attackNames);
+		vector<int>().swap(attackLvls);
+
+		newPokemon = new Pkmn;
 
 		pokdexIndex++;
 	}
 
-	//Close the input file
+	delete newPokemon;
+
+	//Close the input files
 	fin.close();
+	attackFin.close();
+}
+
+/************************************************************************
+* Method LoadPokemonMoves: Class Pokedex
+*----------------------------------------------------------------------
+* 	 This method loads the Pokemon's moves
+* 	 ==> returns attackNames and attackLvls
+*-----------------------------------------------------------------------
+* PRE-CONDITIONS
+* 	The following need to be passed in
+* 		fin         (ifstream)       - the input file variable
+*   	attackNames (vector<string>) - the list of attack names
+*   	attackLvls  (vector<int>)    - the list of attack levels
+*
+* POST-CONDITIONS
+* 	==> returns attackNames and attackLvls
+*************************************************************************/
+void Pokedex::LoadPokemonMoves(std::ifstream& fin, vector<string>& attackNames,
+							   vector<int>& attackLvls)
+{
+	string pokemonName;	//PROC - The name of the Pokemon
+	string attackName;  //PROC - The name of the attack
+
+	int moveListSize;   //PROC - The amount of moves the Pokemon knows
+	int    attackLvl;	//PROC - The level of the attack
+
+	getline(fin, pokemonName);
+
+	fin >> moveListSize;
+
+	attackNames.reserve(moveListSize);
+	attackLvls.reserve(moveListSize);
+
+	for(int index = 0; index < moveListSize; index++)
+	{
+		fin >> attackLvl;
+		fin.ignore(1000, ' ');
+		getline(fin, attackName);
+
+		attackNames.push_back(attackName);
+		attackLvls.push_back(attackLvl);
+	}
+
+	fin.ignore(1000, '\n');
 }
 
 /************************************************************************
@@ -109,19 +274,23 @@ void Pokedex::SearchByName(std::ostream &fout)
 	currentPokemon = FindPokemon(pokemonName);
 
 	//If it is not found, output a message saying it wasn't found
-	if(currentPokemon.GetPokedexNumber() == 0)
+	if(currentPokemon.currentPkmn.GetPokedexNumber() == 0)
 	{
 		cout << "\nThe Pokemon was not found. Check your spelling.\n";
 	}
 	else
 	{
 		//If the Pokemon has evolutions, then initialize them
-		if(currentPokemon.GetEvolutions() != 0)
-			pokemonEvos.SetInitialValues(pokedex, currentPokemon);
+		if(currentPokemon.currentPkmn.GetEvolutions() != 0)
+		{
+			currentPokemon.pkmnEvos.SetInitialValues(pokedexCopy,
+												    currentPokemon.currentPkmn);
+		}
 
 		cout << endl;
 
-		cout << currentPokemon.GetName() << " was found. Check the output "
+		cout << currentPokemon.currentPkmn.GetName()
+			 << " was found. Check the output "
 			 << "file for the Pokemon\'s information\n";
 
 		//OUTPUT - Print the pokemon's information
@@ -198,13 +367,16 @@ void Pokedex::SearchByNum(std::ostream &fout)
 	//PROCESSING - Store the Pokemon that was searched for
 	currentPokemon = pokedex[pokedexNumber - 1];
 
-	//PROCESSING - If the Pokemon has evolutions, then store it
-	if(currentPokemon.GetEvolutions() != 0)
-		pokemonEvos.SetInitialValues(pokedex, currentPokemon);
+	//If the Pokemon has evolutions, then initialize them
+	if(currentPokemon.currentPkmn.GetEvolutions() != 0)
+	{
+		currentPokemon.pkmnEvos.SetInitialValues(pokedexCopy,
+											    currentPokemon.currentPkmn);
+	}
 
 	cout << endl;
 
-	cout << "Check the output file for " << currentPokemon.GetName()
+	cout << "Check the output file for " << currentPokemon.currentPkmn.GetName()
 		 << "\'s information\n";
 
 	//OUTPUT - Print the pokemon's information
@@ -239,12 +411,15 @@ void Pokedex::RandomPokemon(std::ostream& fout)
 
 	cout << endl;
 
-	cout << "Check the output file for " << currentPokemon.GetName()
+	cout << "Check the output file for " << currentPokemon.currentPkmn.GetName()
 		 << "\'s information\n";
 
-	//PROCESSING - If the Pokemon has evolutions, then store it
-	if(currentPokemon.GetEvolutions() != 0)
-		pokemonEvos.SetInitialValues(pokedex, currentPokemon);
+	//If the Pokemon has evolutions, then initialize them
+	if(currentPokemon.currentPkmn.GetEvolutions() != 0)
+	{
+		currentPokemon.pkmnEvos.SetInitialValues(pokedexCopy,
+											    currentPokemon.currentPkmn);
+	}
 
 	//OUTPUT - Print the pokemon's information
 	PrintPokemon(fout);
@@ -347,9 +522,9 @@ globalPDexConsts::Menu Pokedex::GetAndCheckMenu() const
 * POST-CONDITIONS
 * 	==> found/not found Pokemon
 *************************************************************************/
-Pokemon Pokedex::FindPokemon(const string &NAME) const
+Pkmn Pokedex::FindPokemon(const string &NAME) const
 {
-	Pokemon searchPokemon;  //PROC -  The Pokemon that will be returned found
+	Pkmn searchPokemon;     //PROC -  The Pokemon that will be returned found
 							//		  or not found
 
 	int index;		        //PROC - the index in the array
@@ -363,7 +538,7 @@ Pokemon Pokedex::FindPokemon(const string &NAME) const
    while(!found && index < globalPDexConsts::AR_SIZE)
    {
 	   //If the name matches the one being searched for, then end the loop
-		if (!NAME.compare(pokedex[index].GetName()))
+		if (!NAME.compare(pokedex[index].currentPkmn.GetName()))
 		{
 			found = true;
 			searchPokemon = pokedex[index];
@@ -393,12 +568,22 @@ Pokemon Pokedex::FindPokemon(const string &NAME) const
 *************************************************************************/
 void Pokedex::PrintPokemon(std::ostream& fout) const
 {
-	fout << currentPokemon;
+	//OUTPUT - Display the basic Pokemon's information
+	fout << currentPokemon.currentPkmn;
+
+	//OUTPUT - Display the Pokemon's damage
+	fout << currentPokemon.pkmnWeakness;
 
 	//PROCESSING - If the Pokemon has evolutions, then output the evolution tree
-	if(currentPokemon.GetEvolutions() != 0)
-		pokemonEvos.PrintEvoTree(fout);
+	if(currentPokemon.currentPkmn.GetEvolutions() != 0)
+		currentPokemon.pkmnEvos.PrintEvoTree(fout);
 
-	fout << "\n*******************************************"
+	//OUTPUT - Display the Pokemon's lvl moveset
+	currentPokemon.pkmnMoves.PrintLvl(fout);
+
+	//OUTPUT - Display the Pokemon's TM moveset
+	currentPokemon.pkmnMoves.PrintTM(fout);
+
+	fout << "*******************************************"
 			"********************\n\n";
 }

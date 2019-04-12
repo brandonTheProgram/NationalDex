@@ -25,14 +25,14 @@ PokemonEvolutions::PokemonEvolutions()
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		pokedex       (vector<Pokemon>) - The stored Pokedex
-*   	currnetPokemon(Pokemon)         - The current Pokemon
+* 		pokedex       (vector<Pokemon>) - the pokedex
+*   	currentPokemon(currentPokemon)  - the current Pokemon
 *
 * POST-CONDITIONS
 * 	==> returns nothing
 *************************************************************************/
-PokemonEvolutions::	PokemonEvolutions(const vector<Pokemon>& pokedex,
- 	 	 	 	 	 	 	 	 	  const Pokemon& currentPokemon)
+PokemonEvolutions::PokemonEvolutions(const vector<Pokemon>& pokedex,
+		 	 	 	 	 	 	 	 const Pokemon& currentPokemon)
 {
 	pokedexCopy = pokedex;
 
@@ -69,18 +69,20 @@ PokemonEvolutions::	PokemonEvolutions(const vector<Pokemon>& pokedex,
 PokemonEvolutions::~PokemonEvolutions()
 {
 	pokedexCopy.clear();
+
+	vector<Pokemon>().swap(pokedexCopy);
 }
 
 /************************************************************************
 * Method SetInitialValues: Class PokemonEvolutions
 *----------------------------------------------------------------------
-* 	 This method initializes the Pokemon Evolutions object
+* 	 This method sets the Pokemon Evolutions object with values
 * 	 ==> returns nothing
 *-----------------------------------------------------------------------
 * PRE-CONDITIONS
 * 	The following need to be passed in
-* 		pokedex       (vector<Pokemon>) - The stored Pokedex
-*   	currnetPokemon(Pokemon)         - The current Pokemon
+* 		pokedex       (vector<Pokemon>) - the pokedex
+*   	currentPokemon(currentPokemon)  - the current Pokemon
 *
 * POST-CONDITIONS
 * 	==> returns nothing

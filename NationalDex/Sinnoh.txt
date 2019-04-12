@@ -373,7 +373,7 @@ Prevents the Pokemon from being afflicted by status conditions during strong sun
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 2 0 1 1 1 406
-Leveling up with Happiness value at 220 in the Daytime
+Level up with Happiness value at 220 During the Day
 315 0 0
 Using a Shiny Stone
 407 0 0
@@ -392,7 +392,7 @@ Moves with a base power of 60 or less are boosted in power by 50%.
 Poison Point
 The opponent has a 30% chance of being induced with Poison when using an attack, that requires physical contact, against this Pokemon.
 2 0 0 1 0 406
-Leveling up with Happiness value at 220 in Daytime
+Level up with Happiness value at 220 During the Day
 315 1 0
 Using a Shiny Stone
 407 0 0
@@ -774,7 +774,7 @@ The Pokemon cannot receive any effect of hold items except those that affect exp
 1 0 1 1 1 427
 None
 0 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 428 0 0
 
 428
@@ -793,7 +793,7 @@ The Pokemon cannot receive any effect of hold items except those that affect exp
 1 0 1 1 0 427
 None
 0 1 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 428 0 0
 
 429
@@ -888,7 +888,7 @@ None
 1 0 0 1 0 433
 None
 0 0 0
-Leveling up with Happiness value at 220 During the Night
+Level up with Happiness value at 220 During the Night
 358 0 0
 
 434
@@ -1019,9 +1019,9 @@ In Double & Triple battles, the damage that ally Pokemon receive from attacks is
 Serene Grace
 The chances of a move having a secondary effect is doubled.
 2 0 1 1 1 440
-Leveling up during the day while holding Oval Stone
+Level up during the day while holding Oval Stone
 113 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 242 0 0
 
 441
@@ -1135,7 +1135,7 @@ Fire and Ice-Type moves deals 50% damage.
 1 0 1 1 1 446
 None
 0 0 0
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 143 0 0
 
 447
@@ -1154,7 +1154,7 @@ This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 1 0 1 1 1 447
 None
 0 0 0
-Leveling up with Happiness value at 220 in the Daytime
+Level up with Happiness value at 220 During the Day
 448 0 0
 
 448
@@ -1173,7 +1173,7 @@ This Pokemon will not flinch. Does not prevent flinching with Focus Punch.
 1 0 1 1 0 447
 None
 0 1 0
-Leveling up with Happiness value at 220 in the Daytime
+Level up with Happiness value at 220 During the Day
 448 0 0
 
 449
@@ -1363,7 +1363,7 @@ The Pokemon heals up to 1/4 of its maximum Hit Points when hit with Water-type m
 1 0 1 1 1 458
 None
 0 0 0
-Leveling up with Remoraid in the Party
+Level up with Remoraid in the Party
 226 0 0
 
 459
@@ -1420,7 +1420,7 @@ None
 1 0 1 1 0 215
 None
 0 1 0
-Leveling up during the night while holding Razor Claw
+Level up during the night while holding Razor Claw
 461 0 0
 
 462
@@ -1551,7 +1551,7 @@ Raises the critical-hit ratio of moves by one level.
 Serene Grace
 The chances of a move having a secondary effect is doubled.
 2 0 0 1 0 175
-Leveling up with Happiness value at 220
+Level up with Happiness value at 220
 176 1 0
 Using a Shiny Stone
 468 0 0
@@ -1588,7 +1588,7 @@ When sunny, the Pokemon's Speed doubles. However, Speed will not double on the t
 2
 None
 None
-8 0 1 1 0 133
+7 0 1 1 0 133
 None
 0 1 0
 Leveling up at Moss Rock/Area
@@ -1607,7 +1607,7 @@ HP is restored by 1/16th of maximum HP when its hailing.
 2
 None
 None
-8 0 1 1 0 133
+7 0 1 1 0 133
 None
 0 1 0
 Leveling up at Moss Rock/Area
@@ -1629,7 +1629,7 @@ Raises the Pokemon’s evasion during a sandstorm by one level.
 1 0 1 1 0 207
 None
 0 1 0
-Leveling up during the night while holding Razor Fang
+Level up during the night while holding Razor Fang
 472 0 0 
 
 473
@@ -1648,7 +1648,7 @@ Raises the Pokemon's evasion during a hailstorm by one level.
 2 0 1 1 0 220
 None
 221 1 0
-Leveling uping while knowing Acient Power
+Level uping while knowing Acient Power
 473 0 0
 
 474
