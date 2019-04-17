@@ -1569,7 +1569,7 @@ None
 1
 None
 None
-1 0 1 1 0 903
+1 0 1 1 0 803
 None
 0 1 1
 Leveling up while knowing Dragon Pulse
