@@ -2,6 +2,8 @@
 
 This is an update of the original Pokedex project, hence the name NationalDex which is the upgrade in the Pokemon games. Instead of having 15+ functions, classes have been implemented which I learned in my second semester of Computer Science. Just like the Pokedex, the output is sent to an output file "OFile.txt". An example of some functions are seen below when the user chooses to display a table on Pokemon natures and looking at the Pokemon Gengar. The syntax is still off on Github, but is acurate when viewed on Eclipse or MS Visual Studio. I will be adding more funcitonality and information to the Dex in the future.
 
+The information are © Nintendo/Creatures Inc./GAME FREAK Inc. I do not own anything used in this program, this is just a fun program to show my experience in C++
+
 4/11/2019 Attacks have been added the NationalDex to make it more helpful
 
 # To Use
